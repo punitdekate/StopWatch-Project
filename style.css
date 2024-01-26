@@ -1,0 +1,61 @@
+/* for background color of screen */
+
+body {
+    background-color: #2a0845 !important;
+}
+
+
+/* Heading of the project */
+
+#stop-watch-heading {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/* class to align items in center */
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Cotainer where timer and buttons */
+
+#container {
+    height: 50vh;
+    width: 70vw;
+    border: 2px solid lightgrey;
+    margin: auto;
+    max-width: 70vw;
+    max-height: 60vh;
+    background-color: #eef2f3;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* stopwatch timer */
+
+#timer {
+    padding: 1.2rem;
+}
+
+#timer span {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+
+/* .button {
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+    padding: 0.4rem;
+    font-weight: bolder;
+    margin-right: 1.2rem;
+    border-radius: 1.1rem;
+    border: 2px solid lightgrey;
+} */
